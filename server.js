@@ -87,7 +87,7 @@ router.route('/beers/:beer_id')
     });
   })
 
-  // destroy
+  // destro
   .delete(function(req, res) {
       Beer.findByIdAndRemove(req.params.beer_id)
       .then((beer) => {
